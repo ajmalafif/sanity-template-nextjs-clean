@@ -20,7 +20,7 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         cache: npm
-        node-version: lts/*
+        node-version: 24.22.1
 
     - run: npm install
     - run: npm run format
